@@ -2,7 +2,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   counter = 0
-  board.each do | str |
+  board.each do |str|
     if str == "X" || str == "O"
       counter += 1
     end
